@@ -10,7 +10,7 @@ app = flask.Flask(__name__)
 def index():
     return redirect("https://playversestudio.com/")
 
-def home():
+def docs():
     return "Hello, World!"
 
 if __name__ == "__main__":
